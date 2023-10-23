@@ -1,6 +1,6 @@
-package com.edufy.edufy.repositories;
+package com.tobiasjohansson.eaggregatorms.repositories;
 
-import com.edufy.edufy.models.MediaType;
+import com.tobiasjohansson.eaggregatorms.models.MediaType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

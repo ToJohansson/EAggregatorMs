@@ -1,6 +1,6 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
-import com.edufy.edufy.components.CompareDates;
+import com.tobiasjohansson.eaggregatorms.components.CompareDates;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,10 +1,7 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
-import com.edufy.edufy.components.CompareDates;
-import com.edufy.edufy.models.Album;
-import com.edufy.edufy.models.Artist;
-import com.edufy.edufy.repositories.AlbumRepository;
-import com.edufy.edufy.repositories.ArtistRepository;
+import com.tobiasjohansson.eaggregatorms.models.Album;
+import com.tobiasjohansson.eaggregatorms.repositories.AlbumRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

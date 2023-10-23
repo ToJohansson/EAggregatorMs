@@ -1,11 +1,11 @@
-package com.edufy.edufy.models;
+package com.tobiasjohansson.eaggregatorms.models;
 
 import jakarta.persistence.*;
 
 
 @Entity
 @Table(name = "podhosts")
-public class Podhost implements ContentCreator, MediaInterface {
+public class Podhost implements ContentCreator {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "podhost_id", nullable = false)

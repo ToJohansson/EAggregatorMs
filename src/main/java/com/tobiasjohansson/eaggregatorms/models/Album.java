@@ -1,4 +1,4 @@
-package com.edufy.edufy.models;
+package com.tobiasjohansson.eaggregatorms.models;
 
 import jakarta.persistence.*;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "albums")
-public class Album implements MediaInterface {
+public class Album {
 
 
     @Id

@@ -1,10 +1,10 @@
-package com.edufy.edufy.models;
+package com.tobiasjohansson.eaggregatorms.models;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tracks")
-public class Track extends Media implements MediaInterface {
+public class Track extends Media {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "artist_id")

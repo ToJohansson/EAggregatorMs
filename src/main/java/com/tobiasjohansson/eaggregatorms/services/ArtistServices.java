@@ -1,11 +1,10 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
-import com.edufy.edufy.models.Artist;
-import com.edufy.edufy.models.Genre;
-import com.edufy.edufy.models.Track;
-import com.edufy.edufy.repositories.ArtistRepository;
-import com.edufy.edufy.repositories.GenreRepository;
-import com.edufy.edufy.repositories.TrackRepository;
+import com.tobiasjohansson.eaggregatorms.models.Artist;
+import com.tobiasjohansson.eaggregatorms.models.Genre;
+import com.tobiasjohansson.eaggregatorms.repositories.ArtistRepository;
+import com.tobiasjohansson.eaggregatorms.repositories.GenreRepository;
+import com.tobiasjohansson.eaggregatorms.repositories.TrackRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

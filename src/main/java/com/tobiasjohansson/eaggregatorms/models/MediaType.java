@@ -1,4 +1,4 @@
-package com.edufy.edufy.models;
+package com.tobiasjohansson.eaggregatorms.models;
 
 import jakarta.persistence.*;
 
@@ -6,7 +6,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "media_type")
-public class MediaType implements MediaInterface {
+public class MediaType {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)

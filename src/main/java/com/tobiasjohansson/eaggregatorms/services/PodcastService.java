@@ -1,7 +1,7 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
-import com.edufy.edufy.models.Podcast;
-import com.edufy.edufy.repositories.PodcastRepository;
+import com.tobiasjohansson.eaggregatorms.models.Podcast;
+import com.tobiasjohansson.eaggregatorms.repositories.PodcastRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

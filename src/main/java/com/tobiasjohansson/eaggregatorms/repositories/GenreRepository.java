@@ -1,8 +1,6 @@
-package com.edufy.edufy.repositories;
+package com.tobiasjohansson.eaggregatorms.repositories;
 
-import com.edufy.edufy.models.Artist;
-import com.edufy.edufy.models.Genre;
-import com.edufy.edufy.models.MediaType;
+import com.tobiasjohansson.eaggregatorms.models.Genre;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

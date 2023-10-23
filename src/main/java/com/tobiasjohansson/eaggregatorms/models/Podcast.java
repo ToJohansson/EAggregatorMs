@@ -1,9 +1,9 @@
-package com.edufy.edufy.models;
+package com.tobiasjohansson.eaggregatorms.models;
 
 import jakarta.persistence.*;
 @Entity
 @Table(name = "Podcasts")
-public class Podcast implements MediaInterface {
+public class Podcast {
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private int id;

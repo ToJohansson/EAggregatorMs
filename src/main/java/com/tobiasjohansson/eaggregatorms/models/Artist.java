@@ -1,4 +1,4 @@
-package com.edufy.edufy.models;
+package com.tobiasjohansson.eaggregatorms.models;
 
 
 import jakarta.persistence.*;
@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 
 @Entity
 @Table(name = "artists")
-public class Artist implements ContentCreator, MediaInterface {
+public class Artist implements ContentCreator {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "artist_id", nullable = false)

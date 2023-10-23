@@ -1,4 +1,4 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
 import org.springframework.stereotype.Repository;
 

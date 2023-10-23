@@ -1,4 +1,4 @@
-package com.edufy.edufy.components;
+package com.tobiasjohansson.eaggregatorms.components;
 
 import org.springframework.stereotype.Component;
 

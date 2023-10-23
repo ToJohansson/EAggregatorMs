@@ -1,7 +1,6 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
-import com.edufy.edufy.models.Artist;
-import com.edufy.edufy.models.Track;
+import com.tobiasjohansson.eaggregatorms.models.Track;
 
 import java.util.List;
 

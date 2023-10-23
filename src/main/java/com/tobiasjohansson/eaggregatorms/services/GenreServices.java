@@ -1,9 +1,9 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
 
-import com.edufy.edufy.exceptions.ResourceNotFoundException;
-import com.edufy.edufy.models.Genre;
-import com.edufy.edufy.repositories.GenreRepository;
+import com.tobiasjohansson.eaggregatorms.exceptions.ResourceNotFoundException;
+import com.tobiasjohansson.eaggregatorms.models.Genre;
+import com.tobiasjohansson.eaggregatorms.repositories.GenreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

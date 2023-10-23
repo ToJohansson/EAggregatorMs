@@ -1,6 +1,7 @@
-package com.edufy.edufy.repositories;
+package com.tobiasjohansson.eaggregatorms.repositories;
 
-import com.edufy.edufy.models.*;
+import com.tobiasjohansson.eaggregatorms.models.MediaType;
+import com.tobiasjohansson.eaggregatorms.models.Track;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -21,7 +22,6 @@ public interface TrackRepository extends JpaRepository<Track,Integer> {
     @Query("SELECT a FROM Track a JOIN a.artist artist WHERE artist.name = :artistName")
     List<Track> findTrackByArtistContainingIgnoreCase(@Param("artistName")String artistName);
 
-    List<MediaInterface> findAllByMediaType(MediaType mediaType);
 
 
 }

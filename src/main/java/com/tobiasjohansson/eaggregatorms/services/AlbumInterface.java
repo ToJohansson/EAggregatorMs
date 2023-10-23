@@ -1,6 +1,6 @@
-package com.edufy.edufy.services;
+package com.tobiasjohansson.eaggregatorms.services;
 
-import com.edufy.edufy.models.Album;
+import com.tobiasjohansson.eaggregatorms.models.Album;
 
 import java.util.List;
 
