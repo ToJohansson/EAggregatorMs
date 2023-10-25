@@ -1,36 +1,24 @@
-package com.tobiasjohansson.eaggregatorms.models;
+package com.tobiasjohansson.eaggregatorms.dto;
 
-
-import jakarta.persistence.*;
-
-@Entity
-public class Video {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class VideoDTO {
     private int id;
-
-    @Column
     private String name;
-
-    @Column
-    private String realeseDate;
-
-    @Column
+    private String releaseDate;
     private String url;
-
-    @Column
     private String genre;
 
-    public Video(int id, String name, String realeseDate, String url, String genre) {
+    public VideoDTO() {
+    }
+
+    public VideoDTO(int id, String name, String releaseDate, String url, String genre) {
         this.id = id;
         this.name = name;
-        this.realeseDate = realeseDate;
+        this.releaseDate = releaseDate;
         this.url = url;
         this.genre = genre;
     }
 
-    public Video() {
-    }
+    // Getters and setters
 
     public int getId() {
         return id;
@@ -48,12 +36,12 @@ public class Video {
         this.name = name;
     }
 
-    public String getRealeseDate() {
-        return realeseDate;
+    public String getReleaseDate() {
+        return releaseDate;
     }
 
-    public void setRealeseDate(String realeseDate) {
-        this.realeseDate = realeseDate;
+    public void setReleaseDate(String releaseDate) {
+        this.releaseDate = releaseDate;
     }
 
     public String getUrl() {

@@ -12,10 +12,7 @@ public class RestTemplateConfig {
     public RestTemplate restTemplate() {
         RestTemplate restTemplate = new RestTemplate();
 
-        // Configure message converters for JSON
         restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
-
-        // Add error handler if needed
 
         return restTemplate;
     }
